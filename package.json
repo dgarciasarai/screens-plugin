@@ -1,0 +1,9 @@
+{
+  "name": "screens-plugin",
+  "version": "0.0.1",
+  "nativescript": {
+    "platforms": {
+      "ios": "2.4.0"
+    }
+  }
+}
