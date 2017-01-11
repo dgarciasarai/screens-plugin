@@ -1,4 +1,5 @@
 pod 'LiferayScreens'
+pod 'LiferayScreensThemeDemo', :git => 'https://github.com/dgarciasarai/liferay-screens-themes.git', :branch => 'screens-2.0.1'
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
