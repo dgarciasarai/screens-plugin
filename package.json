@@ -1,9 +1,10 @@
 {
   "name": "screens-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "nativescript": {
     "platforms": {
-      "ios": "2.4.0"
+      "ios": "2.4.0",
+      "android": "2.4.1"
     }
   }
 }

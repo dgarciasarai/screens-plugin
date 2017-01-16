@@ -1,0 +1,19 @@
+android {
+  productFlavors {
+    "screens-plugin" {
+      dimension "screens-plugin"
+    }
+  }
+}
+
+dependencies {
+  compile 'com.android.support:recyclerview-v7:+'
+  compile 'com.liferay.mobile:liferay-screens:2.0.2.beta-6'
+  compile 'com.liferay.mobile:liferay-westeros-viewset:2.0.2.beta-6'
+}
+
+repositories {
+  maven {
+    url  "https://dl.bintray.com/nhpatt/liferay-mobile"
+  }
+}
