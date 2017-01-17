@@ -13,6 +13,10 @@ You can now use all the screenlets for your iOS app from Nativescript code.
 
 If you want to display a `LoginScreenlet`, you have to do the following:
 ```swift
+declare var LoginScreenlet: any;
+declare var CGRectMake: any;
+
+/* Inside your class */
 let superview = app.ios.rootController.view;
 
 //Change CGRectMake values to configure the size of your LoginScreenlet
