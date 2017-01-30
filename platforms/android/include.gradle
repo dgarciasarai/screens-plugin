@@ -7,8 +7,8 @@ android {
 }
 
 dependencies {
-  compile 'com.liferay.mobile:liferay-screens:2.0.2.beta-6'
-  compile 'com.liferay.mobile:liferay-westeros-viewset:2.0.2.beta-6'
+  compile 'com.liferay.mobile:liferay-screens:2.0.2.beta-7'
+  compile 'com.liferay.mobile:liferay-westeros-viewset:2.0.2.beta-7'
 }
 
 repositories {
