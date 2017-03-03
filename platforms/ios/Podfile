@@ -1,10 +1,10 @@
 pod 'LiferayScreens'
-pod 'LiferayScreensThemeDemo', :git => 'https://github.com/dgarciasarai/liferay-screens-themes.git', :branch => 'screens-2.0.1'
+pod 'LiferayScreensThemeDemo', :git => 'https://github.com/dgarciasarai/liferay-screens-themes.git', :branch => 'screens-2.1.0'
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
         target.build_configurations.each do |config|
-            config.build_settings['SWIFT_VERSION'] = ‘2.3’
+            config.build_settings['SWIFT_VERSION'] = ‘3.0’
         end
     end
 end
